@@ -35,7 +35,9 @@ services:
     command: npm run dev
 
   db:
-    image: postgres
+    build:
+      context: ./db
+      dockerfile: Dockerfile
     container_name: db
     restart: always
     tty: true
@@ -44,11 +46,12 @@ services:
     environment: 
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: 1234
-      POSTGRES_DB: postgres
+      POSTGRES_DB: test_db
     ports: 
       - "5432:5432"
     networks: 
       - node-network
+
 
   pgadmin:
     container_name: pgadmin4_container

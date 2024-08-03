@@ -1,0 +1,55 @@
+/* src/components/Home/Home.css */
+.dashboard {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .dashboard-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .dashboard-content {
+    margin-top: 20px;
+  }
+  
+  .welcome-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .stats-section {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stat {
+    flex: 1;
+    background-color: #e7f3e7;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 10px;
+    text-align: center;
+  }
+  
+  .stat h3 {
+    margin: 0;
+    color: #4CAF50;
+  }
+  
+  .stat p {
+    margin: 10px 0 0;
+    font-size: 1.5em;
+  }
+  

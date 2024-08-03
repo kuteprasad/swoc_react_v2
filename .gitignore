@@ -1,0 +1,21 @@
+
+# Ignore node_modules in the root and node folder
+node_modules/
+node/node_modules/
+
+# Log files
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# Build output
+dist/
+build/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
