@@ -1,0 +1,9 @@
+use this command to build the project
+
+>>> docker-compose up -d  --build
+
+use this link in browser to view..
+
+>>> http://localhost:8000
+
+
