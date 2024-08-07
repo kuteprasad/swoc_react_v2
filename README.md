@@ -19,5 +19,5 @@ Right-click and select "Create" > "Server".
 Enter a name for the server.
 In the "Connection" tab, use db as the host (since it's the service name in your Docker Compose file), 5432 as the port, and provide the credentials you used (POSTGRES_USER and POSTGRES_PASSWORD).
 
-6. Open a browser and navigate to http://localhost:5173
+6. Open a browser and navigate to http://localhost:8000
 
